@@ -1,0 +1,27 @@
+{
+  "name": "flickering-both-maggot",
+  "version": "1.0.0",
+  "description": "Fake Movies RESTful API with NodeJS and Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js",
+    "create": "node fakeDataGenerator.js"
+  },
+  "author": "Theoklitos Bampouris",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "faker": "^4.1.0",
+    "jsonfile": "^4.0.0",
+    "mongoose": "^4.13.8",
+    "nodemon": "^1.12.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
