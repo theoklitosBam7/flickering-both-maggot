@@ -3,6 +3,9 @@ import mongoose from 'mongoose';
 const DBSchema = mongoose.Schema;
 
 const MovieSchema = new DBSchema({
+  movieID: {
+    type: Number,
+  },
   avatar: {
     type: String,
   },
